@@ -4,11 +4,11 @@
 
 
 Использованные технологии
-1. Flex
-2. Sass
-3. Angular
-4. Rest API  сайта  [fixer.io](http://fixer.io/) 
-5. Для конвертации  валюты [money.js](http://openexchangerates.github.io/money.js/) 
+  Flex
+  Sass
+  Angular
+  Rest API  сайта  [fixer.io](http://fixer.io/) 
+  Для конвертации  валюты [money.js](http://openexchangerates.github.io/money.js/) 
 
 
 Для запуска 
