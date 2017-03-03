@@ -1,6 +1,6 @@
 # Translate-Currency
 
-Проект основа на стартовом пакете [Angular Starter Kit](https://github.com/andreasonny83/angular-starter-kit) 
+Проект основан на стартовом пакете [Angular Starter Kit](https://github.com/andreasonny83/angular-starter-kit) 
 
 
 Использованные технологии
