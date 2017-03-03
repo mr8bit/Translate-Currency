@@ -3,12 +3,14 @@ logs
 *.log
 npm-debug.log*
 
+
+/.idea
+
 # Runtime data
 pids
 *.pid
 *.seed
 *.pid.lock
-/.idea
 # Coverage directory used by tools like istanbul
 coverage
 
