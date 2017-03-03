@@ -1,0 +1,17 @@
+<div class="container">
+  <form name="myForm" class="form" ng-submit="getCurrency()">
+    <div class="title">Введите сумму в рублях</div>
+    <input ng-pattern="/^[0-9]{1,7}$/"  required ng-model="toTransCurr" name="TransCurr"
+           placeholder="В рублях">
+
+
+    <span style="color:red" ng-show="myForm.TransCurr.$invalid && !myForm.TransCurr.$pristine">
+      <span ng-show="myForm.TransCurr.$error.required">Введите сумму для перевода.
+      </span> <span ng-show="myForm.TransCurr.$error.pattern">Введите число.
+      </span>
+    </span>
+    <button type="submit"> Пересчитать в йены</button>
+    <div class="title">Сумма в йенах</div>
+    <div class="title">{{translitionCurr}}</div>
+  </form>
+</div>
