@@ -12,12 +12,12 @@ app.factory('myService', function ($http) {
 
 app.controller('HomeController', function (myService, $scope) {
   $scope.translitionCurr = 0; // итоговая сумма перевода
-  // Функция запроса данных
+  // Функция запроса данных //
    myService.getRates().then(function (d) {
     $scope.data = d.data; // получение данных
   });
 
-  // Итоговая функция получения суммы перевода
+  // Итоговая функция получения суммы перевода //
   $scope.getCurrency = function () {
     var num = $scope.toTransCurr; // сумма для перевода
     $scope.translitionCurr = TranslateCurrency(num, $scope.data.rates);
